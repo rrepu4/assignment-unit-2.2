@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it 'Dane' as a string
+// We check if the string is equal to 'Mary'. 'Dane' is not equal to 'Mary', so
+// we console.log 'How do you do?'.
 //
 
 //CODE
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make two variables secret not set to anything,undefined by default, code set to 123 as a number
+// we check if the number is equal to null. 123 is not equal to undefined & 123 is not greater than 250 so 
+// we console.log undefined
 //
 
 //CODE
@@ -70,11 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// we make three variables, boolean, number and number
+// we check if boolean is true and zip is greater than 80000
+// we check if boolean is flase or age is less than 30
+//we check if boolean is true
+//boolean is true, so
+//we console.log  'Welcome to prime!'
 //CODE
 /*
 let isStudent = true;
@@ -130,6 +131,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - string - incorrect strings, instruction as to set colorOne to blue not red
+// And set colorTow to red not blue
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -146,7 +149,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// Fix - incorrect operator, instruction is both conditions to meet, 
+// replace || with && in if condition
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +164,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - instruction is to check if age is greater than or equal to minAge (not less than or equal to)
+// replace <= with >=
 if(minAge <= age) {
   console.log('no entry');
 } else {
